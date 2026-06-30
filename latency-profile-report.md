@@ -10,7 +10,7 @@
 | 50 | 48.36 | 70.77 | 74.24 | 0.0000 |
 
 ## Latency Chart
-![Latency vs Load Level](charts\latency-vs-load.png)
+![Latency vs Load Level](charts/latency-vs-load.png)
 
 ## Latency Knee
 The latency knee is identified at load_level = 10, with a p95 latency of 19.74 ms.

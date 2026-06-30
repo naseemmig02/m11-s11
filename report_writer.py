@@ -175,6 +175,8 @@ def main() -> None:
     chart_relpath = os.path.relpath(
         args.chart_out, start=os.path.dirname(args.report_out) or "."
     )
+    # Convert to POSIX-style slashes for the report
+    chart_relpath = chart_relpath.replace(os.sep, "/")
     render_report(results, chart_relpath, args.report_out)
     print(f"Wrote {args.report_out} and {args.chart_out}")
 
