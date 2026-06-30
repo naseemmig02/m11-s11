@@ -39,5 +39,3 @@ htmlcov/
 
 # Project specific
 latency_results.json
-latency-profile-report.md
-charts/
